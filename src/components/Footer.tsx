@@ -19,7 +19,7 @@ const Footer = () => {
               Aubrey's <span className="text-gold">Building</span>
             </h3>
             <p className="text-slate-600 font-medium leading-relaxed">
-              Building excellence since 2014. Your trusted partner for premium residential and commercial construction.
+              Building quality since 2020. Your trusted partner for custom residential carpentry and local builds.
             </p>
             <div className="flex gap-3">
               <a
