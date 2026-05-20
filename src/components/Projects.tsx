@@ -33,36 +33,6 @@ const Projects = () => {
       materials: 'Hardwood Timber, Balustrade',
       intent: 'Definitely the spot to have a deck. With a spectacular view over Lake Barrington, this custom timber deck and balustrade installation was a clear favorite job of 2024.',
     },
-    {
-      id: 'modern-villa-complex',
-      image: '/images/villa-complex.png',
-      title: 'Modern Villa Complex',
-      location: 'North West Coast, Tasmania',
-      scale: '1,450 sqm',
-      status: 'Completed',
-      materials: 'Concrete & Hardwood',
-      intent: 'Merging contemporary form with Tasmanian landscape. Seamless indoor-outdoor living designed for the local climate.',
-    },
-    {
-      id: 'luxury-estate',
-      image: 'https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Rural Lifestyle Retreat',
-      location: 'Sheffield, Tasmania',
-      scale: '2,100 sqm',
-      status: 'Completed',
-      materials: 'Timber & Stone',
-      intent: 'A private rural retreat built to sit naturally within the Tasmanian countryside. Sustainably sourced local materials throughout.',
-    },
-    {
-      id: 'architectural-masterpiece',
-      image: 'https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Custom Home Build',
-      location: 'North West Coast, Tasmania',
-      scale: '950 sqm',
-      status: 'Completed',
-      materials: 'Colorbond, Weatherboard',
-      intent: 'A bespoke family home built to exacting standards. Clean geometry, quality finishes, and built to last the Tasmanian seasons.',
-    },
   ]
 
   return (
