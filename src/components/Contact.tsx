@@ -52,7 +52,7 @@ const Contact = () => {
                   <MapPin size={14} /> Studio Location
                 </div>
                 <p className="text-sm font-semibold text-white/80 leading-relaxed">
-                  Services Tasmania, Australia's North West Coast
+                  Services Tasmania's,<br />Australias north west coast
                 </p>
               </div>
               <div className="space-y-2">
@@ -60,7 +60,7 @@ const Contact = () => {
                   <Clock size={14} /> Studio Hours
                 </div>
                 <p className="text-sm font-semibold text-white/80 leading-relaxed">
-                  Mon – Fri: 7:00 AM – 4:00 PM<br />Sat: By Appointment Only
+                  Mon – Fri: 9:00 AM – 6:00 PM<br />Sat: By Appointment Only
                 </p>
               </div>
               <div className="space-y-2 sm:col-span-2">

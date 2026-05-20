@@ -15,7 +15,6 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-6">
             <h3 className="text-2xl font-black tracking-tighter uppercase text-charcoal flex items-center gap-3">
-              <img src="/logo.svg" alt="Aubrey's Building" className="h-8 w-auto" />
               Aubrey's <span className="text-gold">Building</span>
             </h3>
             <p className="text-slate-600 font-medium leading-relaxed">
@@ -97,7 +96,8 @@ const Footer = () => {
                 <MapPin className="w-5 h-5 text-gold flex-shrink-0 mt-1" strokeWidth={2} />
                 <div>
                   <p className="text-slate-600 font-medium">
-                    Services Tasmania, Australia's North West Coast
+                    Services Tasmania's,<br/>
+                    Australias north west coast
                   </p>
                 </div>
               </div>
