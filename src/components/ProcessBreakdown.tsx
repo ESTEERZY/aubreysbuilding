@@ -4,8 +4,8 @@ const ProcessBreakdown = () => {
   const steps = [
     {
       id: "01",
-      title: "Explore Recent Work",
-      description: "Take a look at our real local renovations, decks, and pergolas to find the layout, materials, and features that suit your home.",
+      title: "Specialise in Custom Homes",
+      description: "From custom residential timber framing to complex home extensions and renovations, we build with precision, ensuring structural excellence on every plan.",
       image: "/images/back-entrance-1.jpg"
     },
     {
