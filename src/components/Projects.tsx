@@ -24,6 +24,16 @@ const Projects = () => {
       intent: 'Helped out Lynette with a full pergola replacement — out with the old, in with a clean new treated pine frame built to last. Sadly forgot to take a before pic. 😆',
     },
     {
+      id: 'lake-barrington-deck',
+      image: '/images/lake-barrington-deck.png',
+      title: 'Lake Barrington Deck & Balustrade',
+      location: 'Lake Barrington, Tasmania',
+      scale: 'Outdoor Living',
+      status: 'Completed',
+      materials: 'Hardwood Timber, Balustrade',
+      intent: 'Definitely the spot to have a deck. With a spectacular view over Lake Barrington, this custom timber deck and balustrade installation was a clear favorite job of 2024.',
+    },
+    {
       id: 'modern-villa-complex',
       image: '/images/villa-complex.png',
       title: 'Modern Villa Complex',
