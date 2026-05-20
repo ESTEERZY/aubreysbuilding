@@ -34,14 +34,14 @@ const About = () => {
             className="w-full lg:w-1/2 space-y-8"
           >
             <div>
-              <h2 className="text-sm font-black tracking-[0.2em] text-gold uppercase mb-4">Visionary Leadership</h2>
+              <h2 className="text-sm font-black tracking-[0.2em] text-gold uppercase mb-4">Precision Carpentry</h2>
               <h3 className="text-4xl md:text-5xl font-black tracking-tighter text-white leading-tight">
-                Crafting Legacies through <span className="text-gold">Precision.</span>
+                Aim for perfection and you will <span className="text-gold">come close.</span>
               </h3>
             </div>
 
             <p className="text-lg text-white/70 leading-relaxed font-sans">
-              Founded by Jacob Aubrey, Aubrey's Building was born from a passion for quality residential carpentry and precision builds. Based in Sheffield and serving the North West Coast, Jacob leads a team dedicated to building beautiful, durable decks, pergolas, renovations, and extensions that stand the test of time.
+              Aubrey's Building is a small, owner-operated precision building team based in Sheffield, Tasmania. Founded by licensed builder Jacob Aubrey, we focus on high-quality craftsmanship where no detail is overlooked. Operating as a small local outfit on the North West Coast, we bring meticulous carpentry to every deck, pergola, renovation, and home extension.
             </p>
 
             <div className="space-y-6 pt-4 border-t border-white/10">

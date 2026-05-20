@@ -62,7 +62,7 @@ const Hero = () => {
 
           {/* The Subtext Paragraph */}
           <p className="text-xl lg:text-2xl font-medium text-white/85 max-w-2xl mx-auto leading-relaxed animate-subtext-breath">
-            Masterworks of modern living. Unparalleled craftsmanship. A seamless architectural journey.
+            Aim for perfection and you will come close. Meticulous local carpentry and building on the North West Coast of Tasmania.
           </p>
 
         </div>
