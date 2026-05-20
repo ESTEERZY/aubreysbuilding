@@ -1,4 +1,21 @@
+import { useRef, useCallback } from 'react'
+
+const VIDEOS = ['/videos/hero2.mp4', '/videos/hero.mp4']
+
 const Hero = () => {
+  const videoRef = useRef<HTMLVideoElement>(null)
+  const indexRef = useRef(0)
+
+  const handleEnded = useCallback(() => {
+    indexRef.current = (indexRef.current + 1) % VIDEOS.length
+    const video = videoRef.current
+    if (video) {
+      video.src = VIDEOS[indexRef.current]
+      video.load()
+      video.play()
+    }
+  }, [])
+
   return (
     <section 
       id="hero" 
@@ -18,12 +35,13 @@ const Hero = () => {
       {/* Endless background video loop */}
       <div className="absolute inset-0 w-full h-full overflow-hidden z-0 pointer-events-none bg-[#0c0c0c]">
         <video
-          src="/videos/hero.mp4"
+          ref={videoRef}
+          src={VIDEOS[0]}
           className="w-full h-full object-cover opacity-60"
           autoPlay
-          loop
           muted
           playsInline
+          onEnded={handleEnded}
         />
         {/* Rich gradient overlay for premium legibility and blending */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#0c0c0c]/85 via-transparent to-[#0c0c0c] z-[1]"></div>
