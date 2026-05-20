@@ -25,7 +25,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="text-2xl font-black tracking-[-0.08em] text-white uppercase flex items-center gap-3">
-            Apex <span className="text-gold">Architecture</span>
+            Aubrey's <span className="text-gold">Building</span>
           </div>
 
           {/* Desktop Navigation */}

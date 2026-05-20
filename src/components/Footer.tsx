@@ -15,7 +15,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-6">
             <h3 className="text-2xl font-black tracking-tighter uppercase text-charcoal flex items-center gap-3">
-              Apex <span className="text-gold">Architecture</span>
+              Aubrey's <span className="text-gold">Building</span>
             </h3>
             <p className="text-slate-600 font-medium leading-relaxed">
               Building excellence since 2014. Your trusted partner for premium residential and commercial construction.
@@ -109,7 +109,7 @@ const Footer = () => {
         <div className="border-t border-slate-200 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm font-medium text-slate-500">
             <div>
-              © {new Date().getFullYear()} Apex Architecture. All rights reserved.
+              © {new Date().getFullYear()} Aubrey's Building. All rights reserved.
             </div>
             <div className="flex gap-8">
               <a href="#" className="hover:text-gold transition-colors duration-500">

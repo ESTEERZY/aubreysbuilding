@@ -16,7 +16,7 @@ const About = () => {
             <div className="relative z-10 rounded-[2px] overflow-hidden border border-white/10 shadow-2xl aspect-[4/5]">
               <img 
                 src="/images/director.png" 
-                alt="Director of Apex Architecture" 
+                alt="Director of Aubrey's Building" 
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-charcoal/10 mix-blend-multiply"></div>
@@ -41,7 +41,7 @@ const About = () => {
             </div>
 
             <p className="text-lg text-white/70 leading-relaxed font-sans">
-              Founded by Elena Vance, Apex Architecture was born from a singular obsession: the intersection of structural permanence and poetic residential form. With over two decades of experience in high-end builds, Elena leads a team dedicated to pushing the boundaries of what home can be.
+              Founded by Elena Vance, Aubrey's Building was born from a singular obsession: the intersection of structural permanence and poetic residential form. With over two decades of experience in high-end builds, Elena leads a team dedicated to pushing the boundaries of what home can be.
             </p>
 
             <div className="space-y-6 pt-4 border-t border-white/10">
