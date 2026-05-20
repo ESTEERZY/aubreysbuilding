@@ -121,7 +121,7 @@ const Footer = () => {
               <Link to="/terms-of-service.html" className="hover:text-gold transition-colors duration-500">
                 Terms of Service
               </Link>
-              <Link to="/" className="hover:text-gold transition-colors duration-500">
+              <Link to="/sitemap.html" className="hover:text-gold transition-colors duration-500">
                 Sitemap
               </Link>
             </div>

@@ -4,6 +4,7 @@ import Home from './components/Home'
 import CaseStudyTemplate from './components/CaseStudyTemplate'
 import PrivacyPolicy from './components/PrivacyPolicy'
 import TermsOfService from './components/TermsOfService'
+import Sitemap from './components/Sitemap'
 
 // A premium helper component to restore scroll state to the top of the page on route transition
 function ScrollToTop() {
@@ -26,6 +27,7 @@ function App() {
           {/* Legal / Policy Routes */}
           <Route path="/privacy-policy.html" element={<PrivacyPolicy />} />
           <Route path="/terms-of-service.html" element={<TermsOfService />} />
+          <Route path="/sitemap.html" element={<Sitemap />} />
 
           {/* Reusable, Premium Case Study Layout Template Route */}
           <Route path="/case-study/:id" element={<CaseStudyTemplate />} />
