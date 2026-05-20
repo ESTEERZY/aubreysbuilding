@@ -52,7 +52,7 @@ const Contact = () => {
                   <MapPin size={14} /> Studio Location
                 </div>
                 <p className="text-sm font-semibold text-white/80 leading-relaxed">
-                  48 Wall Street, Penthouse<br />New York, NY 10005
+                  Services Tasmania's,<br />Australias north west coast
                 </p>
               </div>
               <div className="space-y-2">
@@ -68,7 +68,7 @@ const Contact = () => {
                   <Mail size={14} /> Direct Inquiries
                 </div>
                 <p className="text-sm font-semibold text-white/80">
-                  inquiries@apexarchitecture.com &nbsp;•&nbsp; +1 (212) 555-0190
+                  jacob@aubreysbuilding.com.au &nbsp;•&nbsp; 0476 119 012
                 </p>
               </div>
             </div>

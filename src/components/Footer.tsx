@@ -79,16 +79,16 @@ const Footer = () => {
               <div className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-gold flex-shrink-0 mt-1" strokeWidth={2} />
                 <div>
-                  <a href="tel:+15551234567" className="text-slate-600 font-medium hover:text-sand transition-colors duration-500">
-                    (555) 123-4567
+                  <a href="tel:0476119012" className="text-slate-600 font-medium hover:text-sand transition-colors duration-500">
+                    0476119012
                   </a>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-gold flex-shrink-0 mt-1" strokeWidth={2} />
                 <div>
-                  <a href="mailto:info@apexarchitecture.com" className="text-slate-600 font-medium hover:text-gold transition-colors duration-500 break-all">
-                    info@apexarchitecture.com
+                  <a href="mailto:jacob@aubreysbuilding.com.au" className="text-slate-600 font-medium hover:text-gold transition-colors duration-500 break-all">
+                    jacob@aubreysbuilding.com.au
                   </a>
                 </div>
               </div>
@@ -96,8 +96,8 @@ const Footer = () => {
                 <MapPin className="w-5 h-5 text-gold flex-shrink-0 mt-1" strokeWidth={2} />
                 <div>
                   <p className="text-slate-600 font-medium">
-                    123 Construction Ave<br/>
-                    Building City, ST 12345
+                    Services Tasmania's,<br/>
+                    Australias north west coast
                   </p>
                 </div>
               </div>
