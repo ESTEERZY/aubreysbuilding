@@ -52,7 +52,7 @@ const Contact = () => {
                   <MapPin size={14} /> Studio Location
                 </div>
                 <p className="text-sm font-semibold text-white/80 leading-relaxed">
-                  Services Tasmania's,<br />Australias north west coast
+                  Servicing the locals on the<br />North West Coast of Tasmania, Australia
                 </p>
               </div>
               <div className="space-y-2">

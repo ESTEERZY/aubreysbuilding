@@ -96,8 +96,8 @@ const Footer = () => {
                 <MapPin className="w-5 h-5 text-gold flex-shrink-0 mt-1" strokeWidth={2} />
                 <div>
                   <p className="text-slate-600 font-medium">
-                    Services Tasmania's,<br/>
-                    Australias north west coast
+                    Servicing the locals on the<br/>
+                    North West Coast of Tasmania, Australia
                   </p>
                 </div>
               </div>
