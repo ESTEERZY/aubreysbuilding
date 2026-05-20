@@ -43,10 +43,10 @@ const Projects = () => {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-24 gap-8">
           <div className="space-y-6 max-w-3xl animate-fade-in">
             <h2 className="text-5xl lg:text-7xl font-bold tracking-tight text-white leading-tight animate-slide-up">
-              Technical <span className="text-gold italic font-light">Case Studies</span>
+              Recent <span className="text-gold italic font-light">Featured Builds</span>
             </h2>
             <p className="text-xl text-white/60 font-sans font-medium animate-slide-up max-w-2xl" style={{ animationDelay: '0.1s' }}>
-              Defining masterworks. Meticulous exploration of form, light, and context.
+              Quality residential construction. Meticulous carpentry built to stand the test of time.
             </p>
           </div>
         </div>
@@ -117,7 +117,7 @@ const Projects = () => {
                     to={`/${project.id}.html`}
                     className="inline-flex items-center gap-2.5 text-xs font-bold tracking-[0.25em] text-gold hover:text-white uppercase transition-all duration-300 group/link"
                   >
-                    <span>View Architectural Case Study</span>
+                    <span>View Project Details</span>
                     <ArrowRight className="group-hover/link:translate-x-1.5 transition-transform duration-300 text-gold group-hover/link:text-white" size={16} />
                   </Link>
                 </div>
@@ -128,9 +128,9 @@ const Projects = () => {
 
         {/* CTA Below Projects */}
         <div className="mt-32 text-center animate-slide-up border-t border-white/10 pt-24" style={{ animationDelay: '0.3s' }}>
-          <h3 className="text-4xl font-bold text-white mb-6">Ready to realize your vision?</h3>
+          <h3 className="text-4xl font-bold text-white mb-6">Ready to start your next build?</h3>
           <p className="text-xl text-white/60 font-sans font-medium mb-10 max-w-2xl mx-auto">
-            Schedule a private consultation with our architectural directors to begin shaping your legacy.
+            Get in touch with Jacob to discuss your renovation, extension, or outdoor living space.
           </p>
           <a
             href="#contact"

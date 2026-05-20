@@ -41,7 +41,7 @@ const About = () => {
             </div>
 
             <p className="text-lg text-white/70 leading-relaxed font-sans">
-              Founded by Elena Vance, Aubrey's Building was born from a singular obsession: the intersection of structural permanence and poetic residential form. With over two decades of experience in high-end builds, Elena leads a team dedicated to pushing the boundaries of what home can be.
+              Founded by Jacob Aubrey, Aubrey's Building was born from a passion for quality residential carpentry and precision builds. Based in Sheffield and serving the North West Coast, Jacob leads a team dedicated to building beautiful, durable decks, pergolas, renovations, and extensions that stand the test of time.
             </p>
 
             <div className="space-y-6 pt-4 border-t border-white/10">
@@ -49,21 +49,21 @@ const About = () => {
                 <div className="text-gold text-2xl font-black italic">01.</div>
                 <div>
                   <h4 className="text-white font-bold mb-1">Uncompromising Standards</h4>
-                  <p className="text-white/50 text-sm">Every joint, every finish, and every structural element is scrutinized to meet elite specifications.</p>
+                  <p className="text-white/50 text-sm">Every joint, every framing cut, and every finish is built meticulously to ensure high-quality workmanship.</p>
                 </div>
               </div>
               <div className="flex gap-6 items-start">
                 <div className="text-gold text-2xl font-black italic">02.</div>
                 <div>
-                  <h4 className="text-white font-bold mb-1">Bespoke Methodology</h4>
-                  <p className="text-white/50 text-sm">We don't build houses; we curate environments tailored to the specific rhythms of your life.</p>
+                  <h4 className="text-white font-bold mb-1">Direct Builder Onsite</h4>
+                  <p className="text-white/50 text-sm">We coordinate directly with you at every stage, providing straightforward local service you can trust.</p>
                 </div>
               </div>
             </div>
 
             <div className="pt-8">
-              <div className="text-white font-black tracking-widest uppercase text-xs mb-1">Elena Vance</div>
-              <div className="text-gold font-bold text-[10px] tracking-widest uppercase">Principal Director & Founder</div>
+              <div className="text-white font-black tracking-widest uppercase text-xs mb-1">Jacob Aubrey</div>
+              <div className="text-gold font-bold text-[10px] tracking-widest uppercase">Licensed Builder & Founder</div>
             </div>
           </motion.div>
         </div>

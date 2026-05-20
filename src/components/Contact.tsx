@@ -77,9 +77,9 @@ const Contact = () => {
             <div className="space-y-6 pt-8 border-t border-white/10">
               <div className="text-xs font-bold tracking-[0.2em] text-white/40 uppercase mb-2">Our Process</div>
               {[
-                { num: '01', label: 'Consultation', desc: 'Discuss vision and budget.' },
-                { num: '02', label: 'Design', desc: 'Tailored architectural drafting.' },
-                { num: '03', label: 'Construction', desc: 'Precision build. Real-time updates.' },
+                { num: '01', label: 'Consultation', desc: 'Discuss your project ideas and budget.' },
+                { num: '02', label: 'Quote & Plan', desc: 'Measure up, coordinate layout, and prepare a quote.' },
+                { num: '03', label: 'Onsite Build', desc: 'Meticulous carpentry and precision construction.' },
               ].map((item) => (
                 <div key={item.num} className="flex items-start gap-4">
                   <div className="flex-shrink-0 w-12 h-12 bg-charcoal text-gold flex items-center justify-center rounded-[2px] text-sm font-black">

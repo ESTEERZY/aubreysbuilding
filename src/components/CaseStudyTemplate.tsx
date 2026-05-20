@@ -184,12 +184,12 @@ const CaseStudyTemplate = () => {
 
         <div className="container mx-auto px-6 lg:px-12 text-center relative z-10">
           <div className="max-w-3xl mx-auto">
-            <span className="text-xs font-bold tracking-[0.3em] text-gold uppercase block mb-4">Shaping Residential Legacies</span>
+            <span className="text-xs font-bold tracking-[0.3em] text-gold uppercase block mb-4">Building Quality Homes</span>
             <h2 className="text-4xl md:text-6xl font-bold font-heading mb-6 leading-tight">
-              Ready to Manifest<br />Your Masterwork?
+              Ready to Start<br />Your Next Build?
             </h2>
             <p className="text-lg md:text-xl text-white/60 mb-12 max-w-2xl mx-auto leading-relaxed">
-              Connect with Elena Vance and the Aubrey's Building architectural board to discuss your bespoke structural concept. Let us turn your vision into permanent residential form.
+              Connect with Jacob Aubrey to discuss your custom home, renovation, or outdoor living space. Let's work together to build something exceptional.
             </p>
             
             <Link

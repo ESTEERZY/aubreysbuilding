@@ -4,21 +4,21 @@ const ProcessBreakdown = () => {
   const steps = [
     {
       id: "01",
-      title: "Luxury Project Gallery",
-      description: "Explore our portfolio of award-winning custom homes. Draw inspiration from our masterworks to begin shaping your vision.",
-      image: "https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?auto=compress&cs=tinysrgb&w=800"
+      title: "Explore Recent Work",
+      description: "Take a look at our real local renovations, decks, and pergolas to find the layout, materials, and features that suit your home.",
+      image: "/images/back-entrance-1.jpg"
     },
     {
       id: "02",
-      title: "Seamless Client Onboarding",
-      description: "Experience white-glove service from day one. We pair you with an elite architectural consultant to map every detail.",
+      title: "Direct Consultation",
+      description: "Work directly with Jacob to plan your build. We walk through your layout, review site topography, and draft an honest quote.",
       image: "https://images.pexels.com/photos/834892/pexels-photo-834892.jpeg?auto=compress&cs=tinysrgb&w=800"
     },
     {
       id: "03",
-      title: "Real-Time Construction Updates",
-      description: "Total transparency through the build phase. Watch your dream home come to life with weekly site reports and milestones.",
-      image: "https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=800"
+      title: "Onsite Quality Build",
+      description: "Meticulous onsite construction and carpentry built to last. We keep you updated at every stage of the building process.",
+      image: "/images/pergola-1.jpg"
     }
   ];
 
@@ -36,13 +36,13 @@ const ProcessBreakdown = () => {
         >
           <div className="flex items-center gap-4 mb-6">
             <div className="w-12 h-px bg-gold"></div>
-            <h2 className="text-xs md:text-sm font-black tracking-[0.4em] text-gold uppercase">03 // The Architectural Journey</h2>
+            <h2 className="text-xs md:text-sm font-black tracking-[0.4em] text-gold uppercase">03 // Our Process</h2>
           </div>
           <h3 className="text-5xl md:text-7xl font-black tracking-tighter text-white mb-8 leading-[0.9]">
-            From Vision to <span className="text-gold">Masterpiece.</span>
+            From Idea to <span className="text-gold">Reality.</span>
           </h3>
           <p className="text-xl md:text-2xl font-bold text-white/90 leading-relaxed max-w-2xl border-l-4 border-gold/30 pl-8">
-            A streamlined, transparent, and entirely bespoke process designed to make building your luxury home an effortless experience.
+            A straightforward, transparent, and hands-on building approach designed to make renovating or extending your home a stress-free experience.
           </p>
         </motion.div>
 
