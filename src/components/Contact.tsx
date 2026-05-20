@@ -49,7 +49,7 @@ const Contact = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-6 pt-8 border-t border-white/10 font-sans">
               <div className="space-y-2">
                 <div className="flex items-center gap-2 text-xs font-bold tracking-[0.2em] text-gold uppercase">
-                  <MapPin size={14} /> Studio Location
+                  <MapPin size={14} /> Service Area
                 </div>
                 <p className="text-sm font-semibold text-white/80 leading-relaxed">
                   Servicing the locals on the<br />North West Coast of Tasmania, Australia
@@ -57,10 +57,10 @@ const Contact = () => {
               </div>
               <div className="space-y-2">
                 <div className="flex items-center gap-2 text-xs font-bold tracking-[0.2em] text-gold uppercase">
-                  <Clock size={14} /> Studio Hours
+                  <Clock size={14} /> Opening Hours
                 </div>
                 <p className="text-sm font-semibold text-white/80 leading-relaxed">
-                  Mon – Fri: 9:00 AM – 6:00 PM<br />Sat: By Appointment Only
+                  Mon – Fri: 7:30 AM – 4:00 PM<br />Sat: By Appointment Only
                 </p>
               </div>
               <div className="space-y-2 sm:col-span-2">

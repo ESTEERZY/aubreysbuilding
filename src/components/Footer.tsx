@@ -1,4 +1,5 @@
 import { Facebook, Twitter, Instagram, Linkedin, Phone, Mail, MapPin } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   const quickLinks = [
@@ -112,15 +113,15 @@ const Footer = () => {
               © {new Date().getFullYear()} Aubrey's Building. All rights reserved.
             </div>
             <div className="flex gap-8">
-              <a href="#" className="hover:text-gold transition-colors duration-500">
+              <Link to="/privacy-policy.html" className="hover:text-gold transition-colors duration-500">
                 Privacy Policy
-              </a>
-              <a href="#" className="hover:text-gold transition-colors duration-500">
+              </Link>
+              <Link to="/terms-of-service.html" className="hover:text-gold transition-colors duration-500">
                 Terms of Service
-              </a>
-              <a href="#" className="hover:text-gold transition-colors duration-500">
+              </Link>
+              <Link to="/" className="hover:text-gold transition-colors duration-500">
                 Sitemap
-              </a>
+              </Link>
             </div>
           </div>
         </div>
