@@ -12,7 +12,14 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
+    const subject = encodeURIComponent(`New Build Project Inquiry from ${formData.name}`);
+    const body = encodeURIComponent(
+      `Name: ${formData.name}\n` +
+      `Email: ${formData.email}\n` +
+      `Estimated Budget: ${formData.budget}\n\n` +
+      `Project Details:\n${formData.message}`
+    );
+    window.location.href = `mailto:jacob@aubreysbuilding.com.au?subject=${subject}&body=${body}`;
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -153,10 +160,10 @@ const Contact = () => {
                   className="w-full px-5 py-4 bg-white/5 text-white text-base border border-white/10 focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold transition-all rounded-[2px]"
                 >
                   <option value="" disabled>Select a range</option>
-                  <option value="500k_1m">$500k – $1M</option>
-                  <option value="1m_2m">$1M – $2M</option>
-                  <option value="2m_5m">$2M – $5M</option>
-                  <option value="over_5m">$5M+</option>
+                  <option value="under_50k">Under $50k</option>
+                  <option value="50k_150k">$50k – $150k</option>
+                  <option value="150k_350k">$150k – $350k</option>
+                  <option value="over_350k">$350k+</option>
                 </select>
               </div>
 
