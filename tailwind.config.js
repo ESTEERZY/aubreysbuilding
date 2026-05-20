@@ -9,7 +9,7 @@ export default {
       colors: {
         charcoal: '#1A1A1B',
         darkgray: '#171717',
-        gold: '#C5A059',
+        gold: '#BFAF99',
         stone: '#E2E2E2',
         champagne: '#FBF9F6',
         offwhite: '#F8F9FA'
