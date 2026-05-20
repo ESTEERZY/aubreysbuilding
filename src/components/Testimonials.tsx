@@ -35,7 +35,7 @@ const Testimonials = () => {
         <div className="text-center mb-16 space-y-6">
 
           <h2 className="text-5xl lg:text-6xl font-black tracking-tighter text-white leading-tight max-w-3xl mx-auto">
-            Trusted by <span className="text-gold">Hundreds</span> of Satisfied Clients
+            Trusted by <span className="text-gold">Dozens</span> of Satisfied Locals
           </h2>
 
           <div className="flex items-center justify-center gap-2 pt-4">
@@ -89,7 +89,7 @@ const Testimonials = () => {
 
         {/* Bottom CTA */}
         <div className="mt-16 text-center">
-          <p className="text-xl text-white/60 font-medium mb-6 tracking-tight">Join hundreds of satisfied clients.</p>
+          <p className="text-xl text-white/60 font-medium mb-6 tracking-tight">Join other satisfied local families.</p>
           <a
             href="#contact"
             className="group bg-gold text-white px-12 py-5 text-base font-black tracking-tighter uppercase hover:bg-charcoal transition-all duration-500 inline-flex items-center gap-3 shadow-[0_4px_20px_rgba(197,160,89,0.3)] rounded-[2px]"

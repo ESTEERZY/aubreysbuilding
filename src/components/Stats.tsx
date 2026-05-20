@@ -41,10 +41,10 @@ const CountUpStat = ({ stat }: { stat: { value: string; label: string } }) => {
 
 const Stats = () => {
   const stats = [
-    { value: '80+', label: 'Projects Completed' },
+    { value: '45+', label: 'Projects Completed' },
     { value: '10+', label: 'Years of Craft' },
     { value: '98%', label: 'Client Satisfaction' },
-    { value: '$2M+', label: 'In Builds Delivered' },
+    { value: '$1.2M+', label: 'In Builds Delivered' },
   ];
 
   return (
