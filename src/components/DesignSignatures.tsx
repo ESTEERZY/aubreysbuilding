@@ -3,19 +3,19 @@ import { motion } from 'framer-motion';
 const DesignSignatures = () => {
   const signatures = [
     {
-      image: '/images/modern-residential.png',
-      title: 'Modern Architecture',
-      description: 'Award-winning designs. Maximized natural light. Open living spaces.',
+      image: '/images/back-entrance-1.jpg',
+      title: 'Custom Gazebos & Extensions',
+      description: 'Onsite-built structures featuring decorative timber trusses, custom weatherboards, and seamless indoor-outdoor integrations.',
     },
     {
-      image: 'https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Clean Timber Finishes',
-      description: 'Premium timber finishes. Sustainably sourced. Added warmth and character.',
+      image: '/images/lake-barrington-1.jpg',
+      title: 'Premium Hardwood Decks',
+      description: 'Durable timber decking and custom balustrades tailored to withstand the Tasmanian climate while maximizing your views.',
     },
     {
-      image: '/images/luxury-kitchen.png',
-      title: 'Luxury Kitchens',
-      description: 'State-of-the-art culinary spaces. Stone benchtops. Integrated appliances.',
+      image: '/images/pergola-1.jpg',
+      title: 'Treated Pine Pergolas',
+      description: 'Clean, heavy-duty pergola frames engineered to add immediate charm and value to your outdoor entertaining areas.',
     },
   ];
 
@@ -43,11 +43,11 @@ const DesignSignatures = () => {
           className="text-center mb-16 space-y-6"
         >
           <h2 className="text-5xl lg:text-6xl font-black tracking-tighter text-white leading-tight max-w-3xl mx-auto">
-            Design <span className="text-gold">Signatures</span>
+            Building <span className="text-gold">Specialties</span>
           </h2>
 
           <p className="text-xl text-white/60 font-medium leading-relaxed max-w-2xl mx-auto tracking-tight">
-            We craft high-end, custom living spaces. Designed to elevate your lifestyle.
+            Meticulous carpentry and quality building solutions. Built to last on the North West Coast.
           </p>
         </motion.div>
 

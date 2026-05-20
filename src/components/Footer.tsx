@@ -23,7 +23,9 @@ const Footer = () => {
             </p>
             <div className="flex gap-3">
               <a
-                href="#"
+                href="https://www.facebook.com/aubreysbuilding"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-12 h-12 bg-white/20 backdrop-blur-md border border-white/50 flex items-center justify-center hover:bg-gold hover:border-gold hover:text-white transition-all duration-500 rounded-[2px]"
               >
                 <Facebook size={20} strokeWidth={2} />
