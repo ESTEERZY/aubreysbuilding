@@ -9,7 +9,7 @@ const TermsOfService = () => {
       <header className="border-b border-white/10 py-6 bg-charcoal/80 backdrop-blur-md sticky top-0 z-50">
         <div className="container mx-auto px-6 lg:px-12 flex justify-between items-center">
           <Link to="/" className="text-xl font-black tracking-[0.2em] text-white hover:text-gold transition-colors duration-300">
-            AUBREY'S <span className="text-gold">BUILDING</span>
+            AUBREYS <span className="text-gold">BUILDING</span>
           </Link>
           <Link 
             to="/" 
@@ -32,20 +32,20 @@ const TermsOfService = () => {
 
           <div className="prose prose-invert max-w-none space-y-8 text-white/80 leading-relaxed text-base">
             <p>
-              Welcome to the website of Aubrey's Building. By accessing our website or engaging our services, you agree to comply with and be bound by the following Terms of Service.
+              Welcome to the website of Aubreys Building. By accessing our website or engaging our services, you agree to comply with and be bound by the following Terms of Service.
             </p>
 
             <div className="space-y-4">
               <h2 className="text-2xl font-bold text-white border-b border-white/10 pb-2">1. Scope of Services</h2>
               <p>
-                Aubrey's Building provides licensed building and carpentry services (including decks, pergolas, renovations, and extensions) in Tasmania, Australia. All quotes, project scopes, and construction agreements are subject to separate signed contracts outlining exact specifications, schedules, and payment schedules.
+                Aubreys Building provides licensed building and carpentry services (including decks, pergolas, renovations, and extensions) in Tasmania, Australia. All quotes, project scopes, and construction agreements are subject to separate signed contracts outlining exact specifications, schedules, and payment schedules.
               </p>
             </div>
 
             <div className="space-y-4">
               <h2 className="text-2xl font-bold text-white border-b border-white/10 pb-2">2. Website Content</h2>
               <p>
-                All content, photographs, floorplans, and schematics displayed on this website are the property of Aubrey's Building. You may not reproduce, distribute, or reuse any assets without our express prior written permission.
+                All content, photographs, floorplans, and schematics displayed on this website are the property of Aubreys Building. You may not reproduce, distribute, or reuse any assets without our express prior written permission.
               </p>
             </div>
 

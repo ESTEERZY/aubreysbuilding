@@ -100,7 +100,7 @@ const BlueprintToggle = () => {
               // CURRENT VIEW: {view === 'blueprint' ? 'ARCHITECTURAL SCHEMATIC' : 'DELIVERED STRUCTURE'}
             </span>
           </div>
-          <span className="text-[8px] font-mono text-white/20 tracking-widest uppercase">Aubrey's Building // Structural Protocol v4.0</span>
+          <span className="text-[8px] font-mono text-white/20 tracking-widest uppercase">Aubreys Building // Structural Protocol v4.0</span>
         </div>
 
       </div>

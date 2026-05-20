@@ -16,7 +16,7 @@ const About = () => {
             <div className="relative z-10 rounded-[2px] overflow-hidden border border-white/10 shadow-2xl aspect-[4/5]">
               <img 
                 src="/images/director.png" 
-                alt="Director of Aubrey's Building" 
+                alt="Director of Aubreys Building" 
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-charcoal/10 mix-blend-multiply"></div>
@@ -41,7 +41,7 @@ const About = () => {
             </div>
 
             <p className="text-lg text-white/70 leading-relaxed font-sans">
-              Aubrey's Building is a small, owner-operated precision building team based in Sheffield, Tasmania. Founded by licensed builder Jacob Aubrey, we focus on high-quality craftsmanship where no detail is overlooked. Operating as a small local outfit on the North West Coast, we bring meticulous carpentry to every deck, pergola, renovation, and home extension.
+              Aubreys Building is a small, owner-operated precision building team based in Sheffield, Tasmania. Founded by licensed builder Jacob Aubrey, we focus on high-quality craftsmanship where no detail is overlooked. Operating as a small local outfit on the North West Coast, we bring meticulous carpentry to every deck, pergola, renovation, and home extension.
             </p>
 
             <div className="space-y-6 pt-4 border-t border-white/10">

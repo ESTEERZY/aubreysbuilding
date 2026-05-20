@@ -46,8 +46,8 @@ const CaseStudyTemplate = () => {
           </Link>
           
           <Link to="/" className="text-2xl font-black tracking-[-0.08em] text-white uppercase flex items-center gap-3">
-            <img src="/logo.svg" alt="Aubrey's Building" className="h-8 w-auto" />
-            Aubrey's <span className="text-gold">Building</span>
+            <img src="/logo.svg" alt="Aubreys Building" className="h-8 w-auto" />
+            Aubreys <span className="text-gold">Building</span>
           </Link>
 
           {/* Dummy element to balance flexbox */}
@@ -207,7 +207,7 @@ const CaseStudyTemplate = () => {
       {/* Footer copyright section for completeness */}
       <footer className="py-12 bg-[#080808] border-t border-white/5 text-center text-xs font-semibold tracking-wider text-white/30 uppercase z-10 relative">
         <div className="container mx-auto px-6">
-          © {new Date().getFullYear()} Aubrey's Building. All rights reserved. Meticulous structural integrity.
+          © {new Date().getFullYear()} Aubreys Building. All rights reserved. Meticulous structural integrity.
         </div>
       </footer>
 

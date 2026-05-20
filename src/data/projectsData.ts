@@ -34,7 +34,7 @@ export const projectsData: CaseStudyData[] = [
       { label: 'Primary Materials', value: 'Rustic Weatherboard, Treated Pine, Concrete Slab, Custom Matt Black Plates' },
       { label: 'Location', value: 'Sheffield, Tasmania' },
       { label: 'Lead Builder', value: 'Jacob Aubrey' },
-      { label: 'Company', value: "Aubrey's Building" }
+      { label: 'Company', value: "Aubreys Building" }
     ],
     gallery: [
       {
@@ -67,7 +67,7 @@ export const projectsData: CaseStudyData[] = [
       { label: 'Primary Materials', value: 'Treated Pine, Masonry Anchors' },
       { label: 'Location', value: 'North West Coast, Tasmania' },
       { label: 'Lead Builder', value: 'Jacob Aubrey' },
-      { label: 'Company', value: "Aubrey's Building" }
+      { label: 'Company', value: "Aubreys Building" }
     ],
     gallery: [
       {
@@ -100,7 +100,7 @@ export const projectsData: CaseStudyData[] = [
       { label: 'Primary Materials', value: 'Premium Hardwood, Timber Balusters, Stainless Steel Fixings' },
       { label: 'Location', value: 'Lake Barrington, Tasmania' },
       { label: 'Lead Builder', value: 'Jacob Aubrey' },
-      { label: 'Company', value: "Aubrey's Building" }
+      { label: 'Company', value: "Aubreys Building" }
     ],
     gallery: [
       {

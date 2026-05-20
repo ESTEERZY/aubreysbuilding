@@ -9,7 +9,7 @@ const Sitemap = () => {
       <header className="border-b border-white/10 py-6 bg-charcoal/80 backdrop-blur-md sticky top-0 z-50">
         <div className="container mx-auto px-6 lg:px-12 flex justify-between items-center">
           <Link to="/" className="text-xl font-black tracking-[0.2em] text-white hover:text-gold transition-colors duration-300">
-            AUBREY'S <span className="text-gold">BUILDING</span>
+            AUBREYS <span className="text-gold">BUILDING</span>
           </Link>
           <Link 
             to="/" 

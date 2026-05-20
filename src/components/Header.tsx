@@ -25,8 +25,8 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="text-2xl font-black tracking-[-0.08em] text-white uppercase flex items-center gap-3">
-            <img src="/logo.svg" alt="Aubrey's Building" className="h-8 w-auto" />
-            Aubrey's <span className="text-gold">Building</span>
+            <img src="/logo.svg" alt="Aubreys Building" className="h-8 w-auto" />
+            Aubreys <span className="text-gold">Building</span>
           </div>
 
           {/* Desktop Navigation */}

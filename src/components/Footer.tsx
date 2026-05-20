@@ -16,7 +16,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-6">
             <h3 className="text-2xl font-black tracking-tighter uppercase text-charcoal flex items-center gap-3">
-              Aubrey's <span className="text-gold">Building</span>
+              Aubreys <span className="text-gold">Building</span>
             </h3>
             <p className="text-slate-600 font-medium leading-relaxed">
               Building quality since 2020. Your trusted partner for custom residential carpentry and local builds.
@@ -112,7 +112,7 @@ const Footer = () => {
         <div className="border-t border-slate-200 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm font-medium text-slate-500">
             <div>
-              © {new Date().getFullYear()} Aubrey's Building. All rights reserved.
+              © {new Date().getFullYear()} Aubreys Building. All rights reserved.
             </div>
             <div className="flex gap-8">
               <Link to="/privacy-policy.html" className="hover:text-gold transition-colors duration-500">
