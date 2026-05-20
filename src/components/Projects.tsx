@@ -5,7 +5,7 @@ const Projects = () => {
   const projects = [
     {
       id: 'back-entrance-renovation',
-      image: '/images/gazebo-renovation.png',
+      image: '/images/back-entrance-1.jpg',
       title: 'Back Entrance Renovation & Entertainment Area',
       location: 'Sheffield, Tasmania',
       scale: 'Residential Extension',
@@ -15,7 +15,7 @@ const Projects = () => {
     },
     {
       id: 'pergola-replacement',
-      image: '/images/pergola-replacement.png',
+      image: '/images/pergola-1.jpg',
       title: 'Pergola Replacement',
       location: 'North West Coast, Tasmania',
       scale: 'Residential',
@@ -25,7 +25,7 @@ const Projects = () => {
     },
     {
       id: 'lake-barrington-deck',
-      image: '/images/lake-barrington-deck.png',
+      image: '/images/lake-barrington-1.jpg',
       title: 'Lake Barrington Deck & Balustrade',
       location: 'Lake Barrington, Tasmania',
       scale: 'Outdoor Living',
