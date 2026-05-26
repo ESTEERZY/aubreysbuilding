@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Instagram, Linkedin, Phone, Mail, MapPin } from 'lucide-react'
+import { Facebook, Twitter, Instagram, Linkedin, Phone, Mail, MapPin, Clock } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
@@ -101,6 +101,23 @@ const Footer = () => {
                   <p className="text-slate-600 font-medium">
                     Servicing the locals on the<br/>
                     North West Coast of Tasmania, Australia
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Opening Hours */}
+          <div>
+            <h4 className="text-lg font-black mb-6 uppercase tracking-[0.1em] text-charcoal">Hours</h4>
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <Clock className="w-5 h-5 text-gold flex-shrink-0 mt-1" strokeWidth={2} />
+                <div>
+                  <p className="text-slate-600 font-medium leading-relaxed">
+                    Mon – Fri: 7:30 AM – 4:00 PM<br/>
+                    Sat: By Appointment Only<br/>
+                    Sun: Closed
                   </p>
                 </div>
               </div>
