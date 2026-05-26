@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, MapPin, Clock, Mail } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -51,34 +51,6 @@ const Contact = () => {
             <p className="text-xl text-white/60 font-medium leading-relaxed tracking-tight">
               Tell us about your project. Our consultants will respond within one business day.
             </p>
-
-            {/* Firm Information */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-6 pt-8 border-t border-white/10 font-sans">
-              <div className="space-y-2">
-                <div className="flex items-center gap-2 text-xs font-bold tracking-[0.2em] text-gold uppercase">
-                  <MapPin size={14} /> Service Area
-                </div>
-                <p className="text-sm font-semibold text-white/80 leading-relaxed">
-                  Servicing the locals on the<br />North West Coast of Tasmania, Australia
-                </p>
-              </div>
-              <div className="space-y-2">
-                <div className="flex items-center gap-2 text-xs font-bold tracking-[0.2em] text-gold uppercase">
-                  <Clock size={14} /> Opening Hours
-                </div>
-                <p className="text-sm font-semibold text-white/80 leading-relaxed">
-                  Mon – Fri: 7:30 AM – 4:00 PM<br />Sat: By Appointment Only
-                </p>
-              </div>
-              <div className="space-y-2 sm:col-span-2">
-                <div className="flex items-center gap-2 text-xs font-bold tracking-[0.2em] text-gold uppercase">
-                  <Mail size={14} /> Direct Inquiries
-                </div>
-                <p className="text-sm font-semibold text-white/80">
-                  jacob@aubreysbuilding.com.au &nbsp;•&nbsp; 0476 119 012
-                </p>
-              </div>
-            </div>
 
             {/* Process Steps */}
             <div className="space-y-6 pt-8 border-t border-white/10">
