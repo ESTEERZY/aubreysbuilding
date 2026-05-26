@@ -1,5 +1,6 @@
 import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import Home from './components/Home'
 import CaseStudyTemplate from './components/CaseStudyTemplate'
 import PrivacyPolicy from './components/PrivacyPolicy'
@@ -19,6 +20,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
+      <Analytics />
       <div className="min-h-screen bg-charcoal text-white font-sans selection:bg-gold selection:text-charcoal">
         <Routes>
           {/* Main Portfolio Index */}
