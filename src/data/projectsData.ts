@@ -31,7 +31,6 @@ export const projectsData: CaseStudyData[] = [
     metrics: [
       { label: 'Year Completed', value: '2024 (In Progress)' },
       { label: 'Structural System', value: 'Timber Truss Gazebo & Cavity Slider Framing' },
-      { label: 'Primary Materials', value: 'Rustic Weatherboard, Treated Pine, Concrete Slab, Custom Matt Black Plates' },
       { label: 'Location', value: 'Sheffield, Tasmania' },
       { label: 'Lead Builder', value: 'Jacob Aubrey Ray Steers' },
       { label: 'Company', value: "Aubreys Building" }
@@ -64,7 +63,6 @@ export const projectsData: CaseStudyData[] = [
     metrics: [
       { label: 'Year Completed', value: '2024' },
       { label: 'Structural System', value: 'Treated Pine Post & Rafter System' },
-      { label: 'Primary Materials', value: 'Treated Pine, Masonry Anchors' },
       { label: 'Location', value: 'North West Coast, Tasmania' },
       { label: 'Lead Builder', value: 'Jacob Aubrey Ray Steers' },
       { label: 'Company', value: "Aubreys Building" }
@@ -97,7 +95,6 @@ export const projectsData: CaseStudyData[] = [
     metrics: [
       { label: 'Year Completed', value: '2024' },
       { label: 'Structural System', value: 'Hardwood Decking & Timber Balustrade Post Grid' },
-      { label: 'Primary Materials', value: 'Premium Hardwood, Timber Balusters, Stainless Steel Fixings' },
       { label: 'Location', value: 'Lake Barrington, Tasmania' },
       { label: 'Lead Builder', value: 'Jacob Aubrey Ray Steers' },
       { label: 'Company', value: "Aubreys Building" }
