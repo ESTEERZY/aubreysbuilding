@@ -66,7 +66,7 @@ const TermsOfService = () => {
             <div className="space-y-4">
               <h2 className="text-2xl font-bold text-white border-b border-white/10 pb-2">5. Contact Details</h2>
               <p>
-                For questions regarding these Terms, contact Jacob Aubrey:
+                For questions regarding these Terms, contact Jacob Aubrey Ray Steers:
               </p>
               <p className="font-mono text-gold">
                 Email: jacob@aubreysbuilding.com.au<br />

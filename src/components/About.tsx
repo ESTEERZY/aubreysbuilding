@@ -41,7 +41,7 @@ const About = () => {
             </div>
 
             <p className="text-lg text-white/70 leading-relaxed font-sans">
-              Aubreys Building is a small, owner-operated precision building team based in Sheffield, Tasmania. Founded by licensed builder Jacob Aubrey, we focus on high-quality craftsmanship where no detail is overlooked. Operating as a small local outfit on the North West Coast, we bring meticulous carpentry to every deck, pergola, renovation, and home extension.
+              Aubreys Building is a small, owner-operated precision building team based in Sheffield, Tasmania. Founded by licensed builder Jacob Aubrey Ray Steers, we focus on high-quality craftsmanship where no detail is overlooked. Operating as a small local outfit on the North West Coast, we bring meticulous carpentry to every deck, pergola, renovation, and home extension.
             </p>
 
             <div className="space-y-6 pt-4 border-t border-white/10">
@@ -62,7 +62,7 @@ const About = () => {
             </div>
 
             <div className="pt-8">
-              <div className="text-white font-black tracking-widest uppercase text-xs mb-1">Jacob Aubrey</div>
+              <div className="text-white font-black tracking-widest uppercase text-xs mb-1">Jacob Aubrey Ray Steers</div>
               <div className="text-gold font-bold text-[10px] tracking-widest uppercase">Licensed Builder & Founder</div>
             </div>
           </motion.div>

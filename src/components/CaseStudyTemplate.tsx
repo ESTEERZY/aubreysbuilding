@@ -189,7 +189,7 @@ const CaseStudyTemplate = () => {
               Ready to Start<br />Your Next Build?
             </h2>
             <p className="text-lg md:text-xl text-white/60 mb-12 max-w-2xl mx-auto leading-relaxed">
-              Connect with Jacob Aubrey to discuss your custom home, renovation, or outdoor living space. Let's work together to build something exceptional.
+              Connect with Jacob Aubrey Ray Steers to discuss your custom home, renovation, or outdoor living space. Let's work together to build something exceptional.
             </p>
             
             <Link

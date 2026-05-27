@@ -2,7 +2,6 @@ import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import Header from './Header'
 import Hero from './Hero'
-import BlueprintToggle from './BlueprintToggle'
 import ProcessBreakdown from './ProcessBreakdown'
 import Stats from './Stats'
 import About from './About'
@@ -32,7 +31,6 @@ const Home = () => {
       <Hero />
       <Projects />
       <ProcessBreakdown />
-      <BlueprintToggle />
       <Stats />
       <About />
       <DesignSignatures />

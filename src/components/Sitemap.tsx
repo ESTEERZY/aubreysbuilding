@@ -47,12 +47,7 @@ const Sitemap = () => {
                 </li>
                 <li>
                   <a href="/#about" className="hover:text-gold transition-colors duration-300 text-lg font-semibold flex items-center gap-2">
-                    <span className="text-gold">//</span> About Jacob Aubrey
-                  </a>
-                </li>
-                <li>
-                  <a href="/#concept" className="hover:text-gold transition-colors duration-300 text-lg font-semibold flex items-center gap-2">
-                    <span className="text-gold">//</span> Concept to Reality Interactive Showcase
+                    <span className="text-gold">//</span> About Jacob Aubrey Ray Steers
                   </a>
                 </li>
                 <li>
