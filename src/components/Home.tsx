@@ -5,7 +5,6 @@ import Hero from './Hero'
 import ProcessBreakdown from './ProcessBreakdown'
 import Stats from './Stats'
 import About from './About'
-import DesignSignatures from './DesignSignatures'
 import Projects from './Projects'
 import Contact from './Contact'
 import Footer from './Footer'
@@ -33,7 +32,6 @@ const Home = () => {
       <ProcessBreakdown />
       <Stats />
       <About />
-      <DesignSignatures />
       <Contact />
       <Footer />
     </>
