@@ -15,7 +15,7 @@ const About = () => {
           >
             <div className="relative z-10 rounded-[2px] overflow-hidden border border-white/10 shadow-2xl aspect-[4/5]">
               <img 
-                src="/images/director.png" 
+                src="/images/director.jpg" 
                 alt="Director of Aubreys Building" 
                 className="w-full h-full object-cover"
               />
