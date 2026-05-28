@@ -114,7 +114,7 @@ const Projects = () => {
         <div className="mt-32 text-center animate-slide-up border-t border-white/10 pt-24" style={{ animationDelay: '0.3s' }}>
           <h3 className="text-4xl font-bold text-white mb-6">Ready to start your next build?</h3>
           <p className="text-xl text-white/60 font-sans font-medium mb-10 max-w-2xl mx-auto">
-            Get in touch with Jacob to discuss your renovation, extension, or outdoor living space.
+            Get in touch with us to discuss your new home, renovation, or outdoor living space.
           </p>
           <a
             href="#contact"
