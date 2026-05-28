@@ -52,18 +52,9 @@ const Hero = () => {
         <div className="max-w-4xl flex flex-col items-center">
           
           {/* The Main Heading */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter text-white mb-6 leading-[1.02] animate-heading-breath">
-            Structural Integrity.<br />
-            <span className="text-gold">Residential Form.</span>
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter text-white leading-[1.02] animate-heading-breath uppercase">
+            In our <span className="text-gold">Blood</span>
           </h1>
-
-          {/* The Central Accent Line */}
-          <div className="h-[2px] bg-gold mx-auto my-6 w-32" />
-
-          {/* The Subtext Paragraph */}
-          <p className="text-xl lg:text-2xl font-medium text-white/85 max-w-2xl mx-auto leading-relaxed animate-subtext-breath">
-            Aim for perfection and you will come close. Meticulous local carpentry and building on the North West Coast of Tasmania.
-          </p>
 
         </div>
       </div>
