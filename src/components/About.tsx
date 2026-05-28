@@ -4,14 +4,14 @@ const About = () => {
   return (
     <section id="about" className="py-24 bg-darkgray relative overflow-hidden">
       <div className="container mx-auto px-6 lg:px-12 relative z-10">
-        <div className="flex flex-col lg:flex-row items-center gap-16">
+        <div className="flex flex-row items-start gap-4 sm:gap-10 lg:gap-16">
           {/* Image Side */}
           <motion.div 
             initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="w-full lg:w-1/2 relative"
+            className="w-[110px] sm:w-[220px] md:w-[300px] lg:w-1/2 shrink-0 relative"
           >
             <div className="relative z-10 rounded-[2px] overflow-hidden border border-white/10 shadow-2xl aspect-[4/5]">
               <img 
@@ -22,7 +22,7 @@ const About = () => {
               <div className="absolute inset-0 bg-charcoal/10 mix-blend-multiply"></div>
             </div>
             {/* Decorative Gold Frame */}
-            <div className="absolute -bottom-6 -right-6 w-full h-full border-2 border-gold/20 -z-10 rounded-[2px]"></div>
+            <div className="absolute -bottom-3 -right-3 sm:-bottom-6 sm:-right-6 w-full h-full border-2 border-gold/20 -z-10 rounded-[2px]"></div>
           </motion.div>
 
           {/* Text Side */}
@@ -31,15 +31,15 @@ const About = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8, delay: 0.15, ease: "easeOut" }}
-            className="w-full lg:w-1/2 space-y-8"
+            className="flex-1 lg:w-1/2 space-y-4 sm:space-y-8"
           >
-            <p className="text-xl text-white/90 leading-relaxed font-sans font-light tracking-wide italic">
+            <p className="text-[13px] sm:text-base md:text-lg lg:text-xl text-white/90 leading-relaxed font-sans font-light tracking-wide italic">
               "I think some people are born to do certain things. Before I began my apprenticeship with my old man I asked him 'How am I supposed to figure all this out?' He said 'It'll just come to you one day, and then you'll understand.' Square, Level & Plumb he would always say and it really is that simple. My mission is to bring that same simplicity to your experience with us. Plan - Start - Finish & we worry about the in between."
             </p>
 
-            <div className="pt-8 border-t border-white/10">
-              <div className="text-white font-black tracking-widest uppercase text-sm mb-1">JACOB AUBREY RAY STEERS</div>
-              <div className="text-gold font-bold text-xs tracking-widest uppercase">Licensed Builder & Founder</div>
+            <div className="pt-4 sm:pt-8 border-t border-white/10">
+              <div className="text-white font-black tracking-widest uppercase text-xs sm:text-sm mb-1">JACOB AUBREY RAY STEERS</div>
+              <div className="text-gold font-bold text-[10px] sm:text-xs tracking-widest uppercase">Licensed Builder & Founder</div>
             </div>
           </motion.div>
         </div>
