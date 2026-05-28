@@ -1,5 +1,4 @@
-import { Link } from 'react-router-dom'
-import { ArrowRight, MapPin, Ruler, Layers } from 'lucide-react'
+import { ArrowRight, MapPin, Ruler } from 'lucide-react'
 
 const Projects = () => {
   const projects = [
@@ -33,6 +32,16 @@ const Projects = () => {
       materials: 'Hardwood Timber, Balustrade',
       intent: 'Definitely the spot to have a deck. With a spectacular view over Lake Barrington, this custom timber deck and balustrade was definitely a favorite job of 2024.',
     },
+    {
+      id: 'gazebo',
+      image: '/images/gazebo-insta.jpg',
+      title: 'Gazebo',
+      location: 'North West Coast, Tasmania',
+      scale: 'Outdoor Living',
+      status: 'Completed',
+      materials: '',
+      intent: 'The client wanted a cool outdoor space to spend time with friends and kick back with a glass. The space was previously a pool that had a deck built over it, now what she envisioned.',
+    },
   ]
 
   return (
@@ -56,10 +65,9 @@ const Projects = () => {
               className={`flex flex-col ${index % 2 !== 0 ? 'lg:flex-row-reverse' : 'lg:flex-row'} gap-12 lg:gap-20 items-center animate-slide-up group`}
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              {/* Project Image wrapped in Link */}
-              <Link 
-                to={`/${project.id}.html`}
-                className="w-full lg:w-3/5 relative aspect-[16/10] overflow-hidden rounded-[2px] shadow-2xl border border-white/10 block cursor-pointer"
+              {/* Project Image */}
+              <div 
+                className="w-full lg:w-3/5 relative aspect-[16/10] overflow-hidden rounded-[2px] shadow-2xl border border-white/10 block"
               >
                 <img
                   src={project.image}
@@ -68,15 +76,13 @@ const Projects = () => {
                   loading="lazy"
                 />
                 <div className="absolute inset-0 bg-charcoal/10 group-hover:bg-transparent transition-colors duration-500"></div>
-              </Link>
+              </div>
 
               {/* Case Study Content */}
               <div className="w-full lg:w-2/5 flex flex-col justify-center">
-                <Link to={`/${project.id}.html`} className="inline-block group-hover:text-gold transition-colors duration-500">
-                  <h3 className="text-4xl lg:text-5xl font-bold tracking-tight text-white mb-8 group-hover:text-gold transition-colors duration-500">
-                    {project.title}
-                  </h3>
-                </Link>
+                <h3 className="text-4xl lg:text-5xl font-bold tracking-tight text-white mb-8 group-hover:text-gold transition-colors duration-500">
+                  {project.title}
+                </h3>
                 
                 <div className="mb-10">
                   <h4 className="text-xs font-bold tracking-[0.2em] text-white/40 uppercase font-sans mb-3">Architectural Intent</h4>
@@ -98,25 +104,6 @@ const Projects = () => {
                     </div>
                     <div className="text-base md:text-lg font-bold text-white">{project.scale} / {project.status}</div>
                   </div>
-                  <div className="col-span-2">
-                    <div className="flex items-center gap-2 text-xs font-bold tracking-[0.2em] text-white/50 uppercase mb-3">
-                      <Layers size={14} className="text-gold" /> Materials
-                    </div>
-                    <div className="inline-flex px-5 py-2.5 bg-white/5 border border-white/10 text-sm font-bold tracking-[0.15em] text-gold uppercase rounded-[2px]">
-                      {project.materials}
-                    </div>
-                  </div>
-                </div>
-
-                {/* Explore Case Study CTA Link */}
-                <div className="mt-10 border-t border-white/5 pt-8">
-                  <Link
-                    to={`/${project.id}.html`}
-                    className="inline-flex items-center gap-2.5 text-xs font-bold tracking-[0.25em] text-gold hover:text-white uppercase transition-all duration-300 group/link"
-                  >
-                    <span>View Project Details</span>
-                    <ArrowRight className="group-hover/link:translate-x-1.5 transition-transform duration-300 text-gold group-hover/link:text-white" size={16} />
-                  </Link>
                 </div>
               </div>
             </div>
