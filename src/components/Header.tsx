@@ -6,7 +6,6 @@ const Header = () => {
 
   const navLinks = [
     { name: 'Portfolio', href: '#portfolio' },
-    { name: 'Process', href: '#process' },
   ]
 
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {

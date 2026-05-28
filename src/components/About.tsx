@@ -33,41 +33,23 @@ const About = () => {
             transition={{ duration: 0.8, delay: 0.15, ease: "easeOut" }}
             className="w-full lg:w-1/2 space-y-8"
           >
-            <div>
-              <h2 className="text-sm font-black tracking-[0.2em] text-gold uppercase mb-4">Precision Carpentry</h2>
-              <h3 className="text-4xl md:text-5xl font-black tracking-tighter text-white leading-tight">
-                Aim for perfection and you will <span className="text-gold">come close.</span>
-              </h3>
-            </div>
-
-            <p className="text-lg text-white/70 leading-relaxed font-sans">
-              Aubreys Building is a small, owner-operated precision building team based in Sheffield, Tasmania. Founded by licensed builder Jacob Aubrey Ray Steers, we focus on high-quality craftsmanship where no detail is overlooked. Operating as a small local outfit on the North West Coast, we bring meticulous carpentry to every deck, pergola, renovation, and home extension.
+            <p className="text-xl text-white/90 leading-relaxed font-sans font-light tracking-wide italic">
+              "I think some people are born to do certain things. Before I began my apprenticeship with my old man I asked him 'How am I supposed to figure all this out?' He said 'It'll just come to you one day, and then you'll understand.' Square, Level & Plumb he would always say and it really is that simple. My mission is to bring that same simplicity to your experience with us. Plan - Start - Finish & we worry about the in between."
             </p>
 
-            <div className="space-y-6 pt-4 border-t border-white/10">
-              <div className="flex gap-6 items-start">
-                <div className="text-gold text-2xl font-black italic">01.</div>
-                <div>
-                  <h4 className="text-white font-bold mb-1">Uncompromising Standards</h4>
-                  <p className="text-white/50 text-sm">Every joint, every framing cut, and every finish is built meticulously to ensure high-quality workmanship.</p>
-                </div>
-              </div>
-              <div className="flex gap-6 items-start">
-                <div className="text-gold text-2xl font-black italic">02.</div>
-                <div>
-                  <h4 className="text-white font-bold mb-1">Direct Builder Onsite</h4>
-                  <p className="text-white/50 text-sm">We coordinate directly with you at every stage, providing straightforward local service you can trust.</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="pt-8">
-              <div className="text-white font-black tracking-widest uppercase text-xs mb-1">Jacob Aubrey Ray Steers</div>
-              <div className="text-gold font-bold text-[10px] tracking-widest uppercase">Licensed Builder & Founder</div>
+            <div className="pt-8 border-t border-white/10">
+              <div className="text-white font-black tracking-widest uppercase text-sm mb-1">JACOB AUBREY RAY STEERS</div>
+              <div className="text-gold font-bold text-xs tracking-widest uppercase">Licensed Builder & Founder</div>
             </div>
           </motion.div>
         </div>
       </div>
+      
+      {/* Subtle Background Architectural Framing Texture */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center opacity-[0.03] mix-blend-overlay pointer-events-none -z-0"
+        style={{ backgroundImage: "url('/images/luxury-estate-framing.png')" }}
+      />
       
       {/* Background Accent */}
       <div className="absolute top-1/2 right-0 -translate-y-1/2 translate-x-1/2 w-[500px] h-[500px] bg-gold/5 blur-[120px] rounded-full -z-0"></div>

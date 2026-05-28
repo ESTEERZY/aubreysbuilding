@@ -2,8 +2,6 @@ import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import Header from './Header'
 import Hero from './Hero'
-import ProcessBreakdown from './ProcessBreakdown'
-import Stats from './Stats'
 import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
@@ -29,8 +27,6 @@ const Home = () => {
       <Header />
       <Hero />
       <Projects />
-      <ProcessBreakdown />
-      <Stats />
       <About />
       <Contact />
       <Footer />
