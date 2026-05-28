@@ -53,7 +53,7 @@ const Hero = () => {
           
           {/* The Main Heading */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter text-white leading-[1.02] animate-heading-breath uppercase">
-            In our <span className="text-gold">Blood</span>
+            Its in our <span className="text-gold">Blood</span>
           </h1>
 
         </div>
