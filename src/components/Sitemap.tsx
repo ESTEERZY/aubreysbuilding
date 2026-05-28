@@ -64,17 +64,17 @@ const Sitemap = () => {
               <ul className="space-y-3">
                 <li>
                   <Link to="/back-entrance-renovation.html" className="hover:text-gold transition-colors duration-300 text-base font-medium flex items-center gap-2">
-                    <span className="text-gold">•</span> Back Entrance Renovation & Gazebo
+                    <span className="text-gold">•</span> Renovation To Living & Entertainment Area
                   </Link>
                 </li>
                 <li>
                   <Link to="/pergola-replacement.html" className="hover:text-gold transition-colors duration-300 text-base font-medium flex items-center gap-2">
-                    <span className="text-gold">•</span> Pergola Replacement Project
+                    <span className="text-gold">•</span> Pergola Makeover
                   </Link>
                 </li>
                 <li>
                   <Link to="/lake-barrington-deck.html" className="hover:text-gold transition-colors duration-300 text-base font-medium flex items-center gap-2">
-                    <span className="text-gold">•</span> Lake Barrington Deck & Balustrade
+                    <span className="text-gold">•</span> Jarrah Deck
                   </Link>
                 </li>
               </ul>

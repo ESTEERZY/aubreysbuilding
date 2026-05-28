@@ -6,32 +6,32 @@ const Projects = () => {
     {
       id: 'back-entrance-renovation',
       image: '/images/back-entrance-1.jpg',
-      title: 'Back Entrance Renovation & Entertainment Area',
+      title: 'Renovation To Living & Entertainment Area.',
       location: 'Sheffield, Tasmania',
       scale: 'Residential Extension',
       status: 'In Progress',
       materials: 'Weatherboard, Timber Truss, Concrete Slab',
-      intent: 'A previously dead back entrance transformed into a full living zone — new lounge area, laundry, and WC accessed via cavity sliders, plus an onsite-built Gazebo with decorative truss and rustic weatherboard cladding. Custom matt black intersection plates incoming.',
+      intent: 'A previously dead space transformed into a full living zone — new lounge area, laundry, and WC accessed via cavity sliders, plus an Gazebo entertainment area with decorative truss and rustic Tas oak weatherboards sadly to be painted. Custom matt black intersection plates incoming for trusses.',
     },
     {
       id: 'pergola-replacement',
       image: '/images/pergola-1.jpg',
-      title: 'Pergola Replacement',
+      title: 'Pergola Makeover',
       location: 'North West Coast, Tasmania',
       scale: 'Residential',
       status: 'Completed',
       materials: 'Treated Pine, Brick',
-      intent: 'Helped out Lynette with a full pergola replacement — out with the old, in with a clean new treated pine frame built to last. Sadly forgot to take a before pic. 😆',
+      intent: 'Out with the old, in with the new. A clean treated pine Pergola built to match the old one.',
     },
     {
       id: 'lake-barrington-deck',
       image: '/images/lake-barrington-1.jpg',
-      title: 'Lake Barrington Deck & Balustrade',
+      title: 'Jarrah Deck',
       location: 'Lake Barrington, Tasmania',
       scale: 'Outdoor Living',
       status: 'Completed',
       materials: 'Hardwood Timber, Balustrade',
-      intent: 'Definitely the spot to have a deck. With a spectacular view over Lake Barrington, this custom timber deck and balustrade installation was a clear favorite job of 2024.',
+      intent: 'Definitely the spot to have a deck. With a spectacular view over Lake Barrington, this custom timber deck and balustrade was definitely a favorite job of 2024.',
     },
   ]
 
@@ -45,9 +45,6 @@ const Projects = () => {
             <h2 className="text-5xl lg:text-7xl font-bold tracking-tight text-white leading-tight animate-slide-up">
               Recent <span className="text-gold italic font-light">Featured Builds</span>
             </h2>
-            <p className="text-xl text-white/60 font-sans font-medium animate-slide-up max-w-2xl" style={{ animationDelay: '0.1s' }}>
-              Quality residential construction. Meticulous carpentry built to stand the test of time.
-            </p>
           </div>
         </div>
 

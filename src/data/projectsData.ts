@@ -23,7 +23,7 @@ export interface CaseStudyData {
 export const projectsData: CaseStudyData[] = [
   {
     id: 'back-entrance-renovation',
-    title: 'Back Entrance Renovation & Entertainment Area',
+    title: 'Renovation To Living & Entertainment Area.',
     location: 'Sheffield, Tasmania',
     scope: 'Residential Renovation & Gazebo Extension',
     heroImage: '/images/back-entrance-1.jpg',
@@ -55,7 +55,7 @@ export const projectsData: CaseStudyData[] = [
   },
   {
     id: 'pergola-replacement',
-    title: 'Pergola Replacement',
+    title: 'Pergola Makeover',
     location: 'North West Coast, Tasmania',
     scope: 'Outdoor Pergola Replacement',
     heroImage: '/images/pergola-1.jpg',
@@ -87,7 +87,7 @@ export const projectsData: CaseStudyData[] = [
   },
   {
     id: 'lake-barrington-deck',
-    title: 'Lake Barrington Deck & Balustrade',
+    title: 'Jarrah Deck',
     location: 'Lake Barrington, Tasmania',
     scope: 'Premium Outdoor Decking & Balustrade',
     heroImage: '/images/lake-barrington-1.jpg',
