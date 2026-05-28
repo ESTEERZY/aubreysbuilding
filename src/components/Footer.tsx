@@ -19,7 +19,7 @@ const Footer = () => {
               Aubreys <span className="text-gold">Building</span>
             </h3>
             <p className="text-slate-600 font-medium leading-relaxed">
-              Building quality since 2020. Your trusted partner for custom residential carpentry and local builds.
+              Building quality since 2016. Your trusted partner for custom residential carpentry and local builds.
             </p>
             <div className="flex gap-3">
               <a
@@ -115,7 +115,7 @@ const Footer = () => {
                 <Clock className="w-5 h-5 text-gold flex-shrink-0 mt-1" strokeWidth={2} />
                 <div>
                   <p className="text-slate-600 font-medium leading-relaxed">
-                    Mon – Fri: 7:30 AM – 4:00 PM<br/>
+                    Mon – Fri: 7:00 AM – 5:00 PM<br/>
                     Sat: By Appointment Only<br/>
                     Sun: Closed
                   </p>

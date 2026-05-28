@@ -51,26 +51,6 @@ const Contact = () => {
             <p className="text-xl text-white/60 font-medium leading-relaxed tracking-tight">
               Tell us about your project. Our consultants will respond within one business day.
             </p>
-
-            {/* Process Steps */}
-            <div className="space-y-6 pt-8 border-t border-white/10">
-              <div className="text-xs font-bold tracking-[0.2em] text-white/40 uppercase mb-2">Our Process</div>
-              {[
-                { num: '01', label: 'Custom Homes', desc: 'Specialising in timber framing, extensions, and renovations.' },
-                { num: '02', label: 'Direct Consultation', desc: 'Measure up, review site topography, and draft a quote.' },
-                { num: '03', label: 'Onsite Build', desc: 'Meticulous carpentry and precision construction.' },
-              ].map((item) => (
-                <div key={item.num} className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-charcoal text-gold flex items-center justify-center rounded-[2px] text-sm font-black">
-                    {item.num}
-                  </div>
-                  <div>
-                    <p className="text-base font-bold text-white">{item.label}</p>
-                    <p className="text-sm text-white/60">{item.desc}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
           </motion.div>
 
           {/* Right: Contact Form */}

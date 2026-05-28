@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom'
 import Header from './Header'
 import Hero from './Hero'
 import About from './About'
+import DesignSignatures from './DesignSignatures'
 import Projects from './Projects'
 import Contact from './Contact'
 import Footer from './Footer'
@@ -28,6 +29,7 @@ const Home = () => {
       <Hero />
       <Projects />
       <About />
+      <DesignSignatures />
       <Contact />
       <Footer />
     </>

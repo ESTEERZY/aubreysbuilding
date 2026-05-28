@@ -4,18 +4,15 @@ const DesignSignatures = () => {
   const signatures = [
     {
       image: '/images/back-entrance-1.jpg',
-      title: 'Custom Gazebos & Extensions',
-      description: 'Onsite-built structures featuring decorative timber trusses, custom weatherboards, and seamless indoor-outdoor integrations.',
+      title: 'Custom Gazebos & Pergolas',
     },
     {
       image: '/images/lake-barrington-1.jpg',
-      title: 'Premium Hardwood Decks',
-      description: 'Durable timber decking and custom balustrades tailored to withstand the Tasmanian climate while maximizing your views.',
+      title: 'Decks & Patios',
     },
     {
-      image: '/images/pergola-1.jpg',
-      title: 'Treated Pine Pergolas',
-      description: 'Clean, heavy-duty pergola frames engineered to add immediate charm and value to your outdoor entertaining areas.',
+      image: '/images/modern-residential.png',
+      title: 'New Homes & Renovations',
     },
   ];
 
@@ -40,15 +37,11 @@ const DesignSignatures = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
-          className="text-center mb-16 space-y-6"
+          className="text-center mb-16"
         >
           <h2 className="text-5xl lg:text-6xl font-black tracking-tighter text-white leading-tight max-w-3xl mx-auto">
             Building <span className="text-gold">Specialties</span>
           </h2>
-
-          <p className="text-xl text-white/60 font-medium leading-relaxed max-w-2xl mx-auto tracking-tight">
-            Meticulous carpentry and quality building solutions. Built to last on the North West Coast.
-          </p>
         </motion.div>
 
         {/* 3-Column Grid */}
@@ -68,8 +61,7 @@ const DesignSignatures = () => {
               <div className="w-full aspect-video mb-8 overflow-hidden rounded-[2px] border border-charcoal/10 group-hover:border-gold/50 transition-colors duration-500">
                 <img src={item.image} alt={item.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
               </div>
-              <h3 className="text-2xl font-bold tracking-tight text-white mb-4 group-hover:text-gold transition-colors duration-500">{item.title}</h3>
-              <p className="text-base text-white/60 leading-relaxed">{item.description}</p>
+              <h3 className="text-2xl font-bold tracking-tight text-white group-hover:text-gold transition-colors duration-500">{item.title}</h3>
             </motion.div>
           ))}
         </motion.div>
