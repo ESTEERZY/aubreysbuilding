@@ -32,10 +32,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const resend = new Resend(apiKey);
     const friendlyBudget = BUDGET_MAP[budget] || budget;
 
-    // SECURITY REQUIREMENT: Immediately redirect all submissions to elijahsteers02@gmail.com.
-    // Do not send any data to jacob@aubreysbuilding.com.au until explicitly confirmed.
-    const senderEmail = 'noreply@aubreysbuilding.com.au';
-    const recipientEmail = 'elijahsteers02@gmail.com';
+    const senderEmail = process.env.SENDER_EMAIL || 'noreply@aubreysbuilding.com.au';
+    const recipientEmail = process.env.RECIPIENT_EMAIL || 'jacob@aubreysbuilding.com.au';
 
     const htmlContent = `
       <!DOCTYPE html>
