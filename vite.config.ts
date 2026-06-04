@@ -9,6 +9,10 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  server: {
+    port: parseInt(process.env.PORT || '5173'),
+    strictPort: true,
+  },
   build: {
     assetsInlineLimit: 0,
     rollupOptions: {
