@@ -32,7 +32,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     // 1. Internal Notification Email Payload
     const internalEmailPayload = {
-      from: 'Aubreys Building <consultations@aubreysbuilding.com.au>',
+      from: 'Aubreys Building <consultation@aubreysbuilding.com.au>',
       to: 'jacob@aubreysbuilding.com.au',
       subject: `New Consultation Request from ${name}`,
       html: `
