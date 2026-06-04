@@ -30,10 +30,13 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     const friendlyBudget = BUDGET_MAP[budget] || budget;
 
+    const senderEmail = process.env.SENDER_EMAIL || 'consultation@aubreysbuilding.com.au';
+    const recipientEmail = process.env.RECIPIENT_EMAIL || 'jacob@aubreysbuilding.com.au';
+
     // 1. Internal Notification Email Payload
     const internalEmailPayload = {
-      from: 'Aubreys Building <consultation@aubreysbuilding.com.au>',
-      to: 'jacob@aubreysbuilding.com.au',
+      from: senderEmail.includes('<') ? senderEmail : `Aubreys Building <${senderEmail}>`,
+      to: recipientEmail,
       subject: `New Consultation Request from ${name}`,
       html: `
         <!DOCTYPE html>
