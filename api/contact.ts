@@ -80,85 +80,25 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       `,
     };
 
-    // 2. Auto-Responder Email Payload
-    const autoResponderPayload = {
-      from: 'Aubreys Building <consultations@aubreysbuilding.com.au>',
-      to: email,
-      subject: 'Thank you for contacting Aubreys Building',
-      html: `
-        <!DOCTYPE html>
-        <html>
-        <head>
-          <meta charset="utf-8">
-          <title>We have received your request</title>
-        </head>
-        <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #121212; color: #e5e5e5; padding: 30px; margin: 0;">
-          <div style="max-width: 600px; margin: 0 auto; background-color: #1e1e1e; border: 1px solid #BAA892; padding: 40px; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.5);">
-            <div style="border-bottom: 1px solid #2d2d2d; padding-bottom: 25px; text-align: center; margin-bottom: 30px;">
-              <h1 style="color: #BAA892; margin: 0 0 8px 0; font-size: 28px; font-weight: 800; letter-spacing: 3px;">AUBREYS BUILDING</h1>
-              <p style="color: #a3a3a3; margin: 0; font-size: 12px; text-transform: uppercase; letter-spacing: 2px;">Custom Carpentry & Precision Building</p>
-            </div>
-            
-            <div style="line-height: 1.7; font-size: 15px; color: #d4d4d4;">
-              <p style="color: #ffffff; font-size: 17px; font-weight: 600; margin-bottom: 20px;">Hi ${name},</p>
-              
-              <p>Thank you for reaching out to Aubreys Building. We have received your consultation request for your upcoming build project.</p>
-              
-              <p>We appreciate you sharing your vision with us:</p>
-              <div style="background-color: #262626; border-left: 3px solid #BAA892; padding: 15px 20px; border-radius: 2px; font-style: italic; color: #a3a3a3; margin: 20px 0; line-height: 1.6;">
-                "${message}"
-              </div>
-              
-              <p>One of our consultants will review your project details and estimated budget of <strong>${friendlyBudget}</strong>. We will get in touch with you within <strong>one business day</strong> to discuss the next steps.</p>
-              
-              <p style="margin-top: 30px;">We look forward to discussing how we can help bring your project to life.</p>
-            </div>
-            
-            <div style="margin-top: 40px; border-top: 1px solid #2d2d2d; padding-top: 25px; text-align: center; color: #737373; font-size: 12px;">
-              <p style="margin: 0 0 5px 0; color: #a3a3a3; font-weight: 600;">Aubreys Building Team</p>
-              <p style="margin: 0;">Sheffield, Tasmania</p>
-              <p style="margin: 15px 0 0 0; font-size: 11px; color: #525252;">This is an automated response. Please do not reply directly to this email.</p>
-            </div>
-          </div>
-        </body>
-        </html>
-      `,
-    };
-
-    // Execute both email sends in parallel
-    const [internalRes, prospectRes] = await Promise.all([
-      fetch('https://api.resend.com/emails', {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${apiKey}`,
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(internalEmailPayload),
-      }),
-      fetch('https://api.resend.com/emails', {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${apiKey}`,
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(autoResponderPayload),
-      }),
-    ]);
+    // Send internal notification email via Resend API
+    const internalRes = await fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${apiKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(internalEmailPayload),
+    });
 
     const internalData = await internalRes.json().catch(() => ({}));
-    const prospectData = await prospectRes.json().catch(() => ({}));
 
-    if (!internalRes.ok || !prospectRes.ok) {
+    if (!internalRes.ok) {
       console.error('Resend API response error:', {
-        internal: { status: internalRes.status, data: internalData },
-        prospect: { status: prospectRes.status, data: prospectData },
+        status: internalRes.status,
+        data: internalData,
       });
       return res.status(502).json({
-        error: 'Failed to send one or more emails.',
-        details: {
-          internal: internalRes.ok ? 'sent' : 'failed',
-          prospect: prospectRes.ok ? 'sent' : 'failed',
-        },
+        error: 'Failed to send internal notification email.',
       });
     }
 

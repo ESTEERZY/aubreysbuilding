@@ -94,7 +94,7 @@ const Contact = () => {
                 </div>
                 <h3 className="text-3xl font-bold text-white">Request Received</h3>
                 <p className="text-lg text-white/60 max-w-md mx-auto leading-relaxed">
-                  Thank you for reaching out. We have sent a confirmation email to your address. A design and building consultant will review your vision and get in touch within one business day.
+                  Thank you for reaching out. A design and building consultant will review your vision and get in touch within one business day.
                 </p>
                 <button
                   onClick={() => setStatus('idle')}
